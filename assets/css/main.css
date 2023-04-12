@@ -3,6 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display", serif;  
+}
+
+.starting-point {
+  padding-top: 130px;
+}
+
 
 /* nvabar */
 .navbar-brand img{
@@ -112,11 +124,11 @@
 
 
 
-
+/* profile start */
 /* about */
 
 .about-profile {
-  padding: 130px 0 10%;
+  padding-bottom:  10%;
   text-align: center;   
 }
 
@@ -139,6 +151,48 @@
 }
 
 
+
+/* struktur org */
+/* strc-org */
+
+.strc-org {
+  text-align: center;
+}
+
+.strc-org h2{
+  font-size: 2.8vw;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.strc-org .row {
+  padding-top: 60px;
+}
+
+.strc-org .profil-img {
+  padding: 5% 0;
+}
+
+.strc-org img {
+  width: 200px;  
+  border-radius: 50%;
+  filter: drop-shadow(5px 5px 5px gray);
+  transition: transform .2s;
+}
+
+.strc-org img:hover{
+  transform: scale(1.1);
+}
+
+.strc-org .profil-img h3, p {
+  padding-top: .8rem;
+}
+
+
+
+
+
+/* pelantikan */
 /* head pelantikan */
 
 .head-pelantikan {
@@ -239,6 +293,14 @@
   p.paragraf{
       text-align: justify;
   }
+
+
+  /* struktur org */
+  .strc-org img {
+    width: 130px;
+  }
+
+
 
   /* pelantikan */
 

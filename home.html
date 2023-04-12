@@ -33,7 +33,15 @@
 
             <ul class="navbar-nav mx-auto">
               <a class="nav-link active me-5" aria-current="page" href="home.html">Home</a>
-              <a class="nav-link me-5" href="profile.html">Profile</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Profil
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Tentang PERDAMI</a></li>
+                  <li><a class="dropdown-item" href="struktur-organisasi.html">Struktur Organisasi</a></li>                  
+                </ul>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Acara
@@ -69,7 +77,7 @@
 
       <!-- carousel heading starts -->
 
-      <div id="carouselExampleIndicators" class="carousel caro-heading slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" class="starting-point carousel caro-heading slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
