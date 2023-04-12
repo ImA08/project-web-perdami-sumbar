@@ -56,19 +56,6 @@
 }
 
 
-/* parallax */
-.parallax-img {    
-    color:#f5f5fa;
-    height: 400px;
-    background :url(../img/bg.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    opacity: 0.8;    
-}
-
-
 /* events */
 
 .events {
@@ -96,33 +83,6 @@
 }
 
   
-
-/* parallax II */
-.parallax-img-2 {
-    color: #f5f5fa;
-    height: 50vh;
-    background: url(../img/parallax2.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-    padding: 10% 5%;
-  }
-
-  
-  
-  .parallax-img-2 .container {
-    text-align: center;
-  }
-  
-  .parallax-img-2 h2 {
-    font-size: 2rem;
-  }
-  
-  .parallax-img-2 h3 {
-    font-size: 1rem;
-  }
 
 
 /* awards-works */
@@ -179,6 +139,24 @@
 }
 
 
+/* head pelantikan */
+
+.head-pelantikan {
+  padding: 130px 0 10%;
+  text-align: center;   
+}
+
+.head-pelantikan h3 {
+  padding-top: 80px;    
+}
+.head-pelantikan h2 {
+  padding-bottom: 18px;
+  font-size: 3vw;
+}
+
+.head-pelantikan img {
+  width: 350px;    
+}
 
 
 
@@ -255,6 +233,25 @@
   }
 
   .about-profile img {
+      width: 75%;        
+  }
+
+  p.paragraf{
+      text-align: justify;
+  }
+
+  /* pelantikan */
+
+  .head-pelantikan h3 {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .head-pelantikan p {
+      text-indent: 10px;
+      text-align: justify;
+  }
+
+  .head-pelantikan img {
       width: 75%;        
   }
 
