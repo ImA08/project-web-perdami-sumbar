@@ -1,0 +1,8 @@
+.gallery-som15 {
+    margin: 10% 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all .2s cubic-bezier(.34, 1.12, .68, 1.23);
+}

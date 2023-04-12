@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+
+/* nvabar */
+.navbar-brand img{
+    width: 6.5vw;
+    padding: 10px 10px;
+}
+
+.nav-link, .dropdown-menu li a {    
+  font-family: 'Merriweather', serif;
+  color: #00345b;
+}
+
+.dropdown-menu a:hover{
+  background-color: #dbd3d8;
+}
+
+/* carousel head */
+.caro-heading {
+    padding-top: 80px;
+}
+
+.caro-heading .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+
+/* about */
+
+.about {
+    
+    padding: 7% 15%;
+}
+
+.about-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.about-box img {
+    width: 300px;
+}
+
+.about-box h3 {
+    text-align: left;
+    padding: 3% 0 5%;
+}
+
+.about-box p {
+  text-align: justify;
+}
+
+
+/* parallax */
+.parallax-img {    
+    color:#f5f5fa;
+    height: 400px;
+    background :url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: 0.8;    
+}
+
+
+/* events */
+
+.events {
+    padding: 3% 7%;    
+}
+
+.events h2{
+    padding: 3% 0 2%;
+    font-size: 2rem;
+}
+
+.events .card {
+    width: 320px;
+    height: 400px;
+  }
+  
+.events .card-img-top {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+.d-md-none {
+  padding: 5% 5%;
+}
+
+  
+
+/* parallax II */
+.parallax-img-2 {
+    color: #f5f5fa;
+    height: 50vh;
+    background: url(../img/parallax2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    padding: 10% 5%;
+  }
+
+  
+  
+  .parallax-img-2 .container {
+    text-align: center;
+  }
+  
+  .parallax-img-2 h2 {
+    font-size: 2rem;
+  }
+  
+  .parallax-img-2 h3 {
+    font-size: 1rem;
+  }
+
+
+/* awards-works */
+
+.awards-works {
+  padding: 5% 3%;
+  color: #f5f5fa;
+  height: 500px;
+  background-color: black;
+
+}
+
+.awards-works p.head-paragraf {
+  padding-top: 2%;  
+}
+
+.awards-works .awards-border {  
+  border-color: #f5f5fa;
+  border-bottom: 1px solid #dbd3d8;  
+  right: 60%;
+}
+
+.awards-works .row {
+  padding-top: 20px;
+}
+
+
+
+
+
+/* about */
+
+.about-profile {
+  padding: 130px 0 10%;
+  text-align: center;   
+}
+
+.about-profile h3 {
+  padding-top: 80px;    
+}
+
+.about-profile img {
+  width: 430px;    
+}
+
+
+/* visi-misi */
+
+.visi-misi {
+  padding: 8% 7%;
+  color: #f5f5fa;
+  background-color: #001920;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* cta */
+.cta {
+    background-color: #00345b;
+    text-align: left;
+    padding: 2% 15%;
+    color: #f5f5fa;
+}
+
+.cta h3 {
+    text-align: left;
+    padding-bottom: 10%;
+    font-size: 3rem;
+}
+
+.icons {
+  text-align: left;
+}
+
+.icons a {
+  color: #f5f5fa;
+  text-decoration: none;
+  line-height: 2.5;
+  padding-left: 5px;  
+}
+
+.icons a:hover {
+  color: aqua;  
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .navbar-brand img {
+    width: 11vw;
+  }
+
+  .about-box img {
+    width: 160px;
+  }
+  .about-box h3, p {
+    text-align: center;        
+  }  
+
+  .awards-works {
+    text-align: left;
+  }
+
+  /* profile */
+
+  .about-profile h3 {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .about-profile p {
+      text-indent: 10px;
+      text-align: justify;
+  }
+
+  .about-profile img {
+      width: 75%;        
+  }
+
+  p.paragraf{
+      text-align: justify;
+  }
+
+  /* cta */
+
+  .cta h3 {
+    text-align: left;
+    padding-bottom: 8px;
+    font-size: 6vw;
+  }
+
+  .cta p {
+      font-size: 4vw;
+      text-align: left;
+  }
+
+  .icons a {
+    font-size: 13px;
+  }
+    
+  }
+
+  @media (min-width: 768px) {
+
+    .icons {
+      padding-top: 50px;      
+    }
+
+
+  }

@@ -1,0 +1,63 @@
+
+
+
+/* about */
+
+.head-pelantikan {
+    padding: 130px 0 10%;
+    text-align: center;   
+}
+
+.head-pelantikan h3 {
+    padding-top: 80px;    
+}
+.head-pelantikan h2 {
+    padding-bottom: 18px;
+    font-size: 3vw;
+}
+
+.head-pelantikan img {
+    width: 350px;    
+}
+
+
+
+
+
+
+/* visi-misi */
+
+.visi-misi {
+    padding: 8% 7%;
+    color: #f5f5fa;
+    background-color: #001920;
+    text-align: center;
+}
+  
+
+
+
+
+
+@media (max-width: 768px) {    
+
+    .head-pelantikan h3 {
+        padding-top: 100px;
+        text-align: center;
+    }
+    .head-pelantikan p {
+        text-indent: 10px;
+        text-align: justify;
+    }
+
+    .head-pelantikan img {
+        width: 75%;        
+    }
+
+    p.paragraf{
+        text-align: justify;
+    }
+
+
+
+}

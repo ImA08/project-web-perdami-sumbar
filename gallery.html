@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap assets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+
+    <!-- fontawesomw -->
+    <script src="https://kit.fontawesome.com/fa749c5de2.js" crossorigin="anonymous"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- navbar here -->
+       
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="d-flex justify-content-center">
+          <a class="navbar-brand" href="home.html">
+            <img src="assets/img/logo.jpg" alt="">
+          </a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+            <ul class="navbar-nav mx-auto">
+              <a class="nav-link active me-5" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link me-5" href="#">Profile</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acara
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">SOM 15th</a></li>
+                    <li><a class="dropdown-item" href="#">Family Gathering</a></li>
+                    <li><a class="dropdown-item" href="pelantikan.html">Pelantikan Anggota</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dokumen
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">E-Certificate</a></li>
+                    <li><a class="dropdown-item" href="gallery.html">Galleri</a></li>
+                    <li><a class="dropdown-item" href="#">Agenda Ilmiah</a></li>
+                </ul>
+              </li>              
+
+              <a class="nav-link me-5" href="">Hubungi Kami</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar end -->
+
+
+      <!-- gallery start here -->
+
+    <section class="gallery-som15">
+        <div class="container">
+            <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Thumbnail Gallery</h1>
+            <hr class="mt-2 mb-5">
+            <div class="row text-center text-lg-start">
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1">
+                  <img class="img-fluid img-thumbnail" src="assets/gallery/potong_pita/gallery1.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2">
+                  <img class="img-fluid img-thumbnail" src="assets/gallery/potong_pita/gallery2.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3">
+                  <img class="img-fluid img-thumbnail" src="assets/gallery/potong_pita/gallery3.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar4">
+                  <img class="img-fluid img-thumbnail" src="assets/gallery/potong_pita/gallery4.jpg" alt="">
+                </a>
+              </div>
+            </div>
+            
+            <!-- Modal gambar 1 -->
+            <div class="modal fade" id="gambar1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <img class="img-fluid" src="assets/gallery/potong_pita/gallery1.jpg" alt="">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Modal gambar 2 -->
+            <div class="modal fade" id="gambar2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <img class="img-fluid" src="assets/gallery/potong_pita/gallery2.jpg" alt="">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Modal gambar 3 -->
+            <div class="modal fade" id="gambar3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <img class="img-fluid" src="assets/gallery/potong_pita/gallery3.jpg" alt="">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+
+            <!-- Modal gambar 4 -->
+            <div class="modal fade" id="gambar4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <img class="img-fluid" src="assets/gallery/potong_pita/gallery4.jpg" alt="">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+            
+          
+    
+
+    <!-- gallery ends here -->
+
+      
+
+
+
+
+      <!-- cta start here -->
+      <section class="cta">  
+        <div class="row">
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Get In Touch</h3>
+              </div>
+              <div class="col-md-6">
+                <p><strong>Sekretariat PERDAMI Sumbar</strong></p>
+                <p>123 Anywhere St.
+                  Any City, ST 12345</p>
+              </div>
+              <div class="col-md-6">
+                <p>Tel. 123-456-7890<br>
+                Email: perdamisumbar2023@gmail.com<br>
+                Social: @reallygreatsite</p>
+                
+              </div>
+            </div>
+          </div>    
+          <div class="col-md-3 offset-md-1">
+            <div class="icons">
+              <i class="fa-brands fa-instagram fa-lg"></i><a href="https://www.instagram.com/perdami.sumbar1/"> Perdami.sumbar1</a><br>
+              <i class="fa-brands fa-square-facebook fa-lg"></i><a href="https://www.facebook.com/perdamisumbar2020"> Perdami Sumbar </a><br>
+              <!-- <i class="fa-regular fa-envelope fa-lg"></i><a href="mailto:nama@example.com?subject=Pesan%20penting&body=Halo%20nama,%0D%0A%0D%0AIni%20adalah%20pesan%20penting%20yang%20saya%20ingin%20sampaikan.%0D%0A%0D%0ASalam%20hangat,%0D%0A%0D%0AJohn">perdamisumbar2023@gmail.com</a> -->
+    
+    
+            </div>
+          </div>
+      </div> 
+    </section>
+
+    <!-- cta end here -->
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
