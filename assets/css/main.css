@@ -174,7 +174,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .strc-org img {
-  width: 200px;  
+  width: 180px;
+  height: 215px;  
   border-radius: 50%;
   filter: drop-shadow(5px 5px 5px gray);
   transition: transform .2s;
@@ -343,7 +344,7 @@ h1, h2, h3, h4, h5 {
   @media (min-width: 768px) {
 
     .icons {
-      padding-top: 50px;      
+      padding-top: 85px;      
     }
 
 
