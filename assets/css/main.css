@@ -17,6 +17,13 @@ h1, h2, h3, h4, h5 {
 
 
 /* nvabar */
+
+nav {
+  background-color: #f5f5fa;
+}
+.navbar {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
 .navbar-brand img{
     width: 6.5vw;
     padding: 10px 10px;
@@ -71,6 +78,8 @@ h1, h2, h3, h4, h5 {
 /* events */
 
 .events {
+    text-align: center;
+    justify-content: center;
     padding: 3% 7%;    
 }
 
@@ -80,8 +89,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .events .card {
-    width: 320px;
-    height: 400px;
+    margin: 3% 0;
+    width: 25vw;
+    height: 30vw;
   }
   
 .events .card-img-top {
@@ -91,7 +101,11 @@ h1, h2, h3, h4, h5 {
   }
 
 .d-md-none {
-  padding: 5% 5%;
+  padding: 5% 8%;  
+}
+
+.d-md-none img {
+  height: 60vh;
 }
 
   
@@ -147,7 +161,11 @@ h1, h2, h3, h4, h5 {
   padding: 8% 7%;
   color: #f5f5fa;
   background-color: #001920;
-  text-align: center;
+  text-align: center;  
+}
+
+.visi-misi h3 {
+  top: 100px;
 }
 
 
@@ -215,16 +233,44 @@ h1, h2, h3, h4, h5 {
 
 
 
+/* gallery */
+
+.gallery-som15 button{
+  font-size: 1.5vw;
+  
+}
+
+.gallery-som15 .btns-group {
+  padding-bottom: 3%;
+}
+
+.gallery-som15 .container .image:hover img{
+  transform: scale(1.1);
+}
+
+
+
+/* contact us */
+
+
+
 
 
 
 /* cta */
 .cta {
     background-color: #00345b;
-    text-align: left;
-    padding: 2% 15%;
+    text-align: center;    
+    padding: 5% 3%;
     color: #f5f5fa;
 }
+
+.cta .row {
+  text-align: left;
+  padding: 5vh 3vw;
+}
+
+
 
 .cta h3 {
     text-align: left;
@@ -259,6 +305,10 @@ h1, h2, h3, h4, h5 {
 
 
 @media (max-width: 768px) {
+
+  body p {
+    font-size: 3vw;
+  }
 
   .navbar-brand img {
     width: 11vw;
@@ -322,6 +372,15 @@ h1, h2, h3, h4, h5 {
       text-align: justify;
   }
 
+  /* gallery */
+  /* .gallery-som15 button {
+    font-size: 2vw;
+  } */
+
+
+  
+
+
   /* cta */
 
   .cta h3 {
@@ -343,9 +402,7 @@ h1, h2, h3, h4, h5 {
 
   @media (min-width: 768px) {
 
-    .icons {
-      padding-top: 85px;      
-    }
+    
 
 
   }

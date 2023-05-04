@@ -6,3 +6,20 @@
     text-transform: capitalize;
     transition: all .2s cubic-bezier(.34, 1.12, .68, 1.23);
 }
+
+.gallery-som15 .image.hide {
+    display: none;
+}
+
+.gallery-som15 .image.show {
+    animation: animate .4s ease;
+}
+
+@keyframes animate {
+    0% {
+        transofrm : scale(.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

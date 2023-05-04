@@ -1,15 +1,28 @@
+const filterEvent = document.querySelector(".btns-group");
+const filterImg = document.querySelectorAll(".image");
 
-const parallax2 = document.querySelector('.parallax-img-2');
-const child = parallax2.querySelector('.parallax-img-2 .container');
-const offsetTop = parallax2.offsetTop;
+window.onload = ()=>{
+  filterEvent.onclick = (selectedEvent) => {
+    if(selectedEvent.target.classList.contains("buttons")){
+      filterEvent.querySelector(".active").classList.remove("active");
+      selectedEvent.target.classList.add("active");
+      
+      let filterData = selectedEvent.target.getAttribute("data-name");
+      
 
-window.addEventListener('scroll', () => {
-  if (window.pageYOffset >= offsetTop) {
-    child.setAttribute('style', 'background-attachment: scroll !important;');
-    // berhenti efek parallax
-    // tambahkan kelas CSS atau ubah properti CSS elemen anak
-  } else {
-    // lanjutkan efek parallax
-    child.setAttribute('style', 'background-attachment: fixed;');
+      filterImg.forEach((image) => {
+        let filterImages = image.getAttribute("data-name");        
+
+        if((filterImages == filterData) || filterData == "all"){
+          image.classList.remove("hide");
+          image.classList.add("show");
+          
+        } else {
+          image.classList.add("hide");
+          image.classList.remove("show");
+        }
+      });
+      
+    }
   }
-});
+}
