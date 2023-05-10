@@ -26,3 +26,17 @@ window.onload = ()=>{
     }
   }
 }
+
+
+// const images = document.querySelectorAll('.image');
+// const imgExtension = 'jpg'; // ekstensi gambar
+
+// for (let i = 1; i <= 10; i++) {
+//   images.forEach(image => {
+//     const dataName = image.getAttribute('data-name');
+//     const img = image.querySelector('img');
+//     const imgPath = img.getAttribute('src');
+//     const newImgPath = `assets/gallery/${dataName}/gallery${i}.${imgExtension}`;
+//     img.setAttribute('src', newImgPath);
+//   });
+// }
