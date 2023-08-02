@@ -1,29 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- magnific-popup css cdnjs -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <app-head></app-head>
 
-    <!-- bootstrap assets -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/gallery.css">
-
-    <!-- fontawesomw -->
-    <script src="https://kit.fontawesome.com/fa749c5de2.js" crossorigin="anonymous"></script>
-
-
-    <title>Document</title>
-</head>
-<body>
-
+    <link rel="stylesheet" href="assets/css/gallery.css" />
+    <title>Galleri</title>
+  </head>
+  <body>
     <!-- navbar here -->
-       
-    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+
+    <!-- <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <div class="d-flex justify-content-center">
           <a class="navbar-brand" href="home.html">
@@ -72,374 +63,755 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
 
-      <!-- navbar end -->
+    <app-navbar></app-navbar>
+    <!-- navbar end -->
 
-
-      <!-- gallery start here -->
+    <!-- gallery start here -->
 
     <section class="starting-point gallery-som15">
-        <div class="container">
-            <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Thumbnail Gallery</h1>
-            <hr class="mt-2 mb-5">
-            <div class="items btns-group">
-              <button type="button" class="item buttons btn btn-outline-primary btn-lg active" data-name="all">All</button>
-              <button type="button" class="item buttons btn btn-outline-primary btn-lg" data-name="som15th">SOM15th</button>
-              <button type="button" class="item buttons btn btn-outline-primary btn-lg" data-name="pelantikan">Pelantikan</button>
-              <button type="button" class="item buttons btn btn-outline-primary btn-lg" data-name="fam-gath">Family Gathering</button>
-            </div>
-            
-            <div class="row text-center text-lg-start">
-
-              <!-- som15th -->
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-1">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/som15th/gallery1.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-2">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/som15th//gallery2.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-3">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/som15th//gallery3.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-4">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/som15th//gallery4.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-5">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/bussiness-meeting/(1).H1.b. Business Meeting.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-6">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/bussiness-meeting/(34).H1.b. Business Meeting.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-7">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/bussiness-meeting/(48).H1.b. Business Meeting.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-8">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/bussiness-meeting/(73).H1.b. Business Meeting.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-9">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/bussiness-meeting/(73).H1.b. Business Meeting.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar1-10">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/bussiness-meeting/(73).H1.b. Business Meeting.jpg" alt="">
-                </a>
-              </div>
-
-              <!-- pelantikan -->
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-1">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(129) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-2">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(21) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-3">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(6) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-4">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(71) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-5">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(80) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-6">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(108) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-7">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(24) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-8">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(28) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-9">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(37) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar2-10">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/pelantikan/(49) H1.e. Pelantikan Pengurus Perdami.jpg" alt="">
-                </a>
-              </div>
-
-              <!-- family-gathering -->
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-1">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(1) H3.b. Senam Pagi.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-2">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(21) H3.b. Senam Pagi.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-3">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(58) H3.b. Senam Pagi.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-4">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(6) H3.b. Senam Pagi.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-5">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(1) H3.a. Fun Bike.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-6">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(110) H3.a. Fun Bike.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-7">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(133) H3.a. Fun Bike.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-8">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(138) H3.a. Fun Bike.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-9">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(1) H3.c. Stand Kuliner.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-10">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(12) H3.c. Stand Kuliner.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-11">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(5) H3.c. Stand Kuliner.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-12">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(58) H3.c. Stand Kuliner.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-13">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(11) H3.d. SOM Idol.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-14">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(14) H3.d. SOM Idol.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-15">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(20) H3.d. SOM Idol.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-16">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(27) H3.d. SOM Idol.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-17">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(11) H3.e. KIM.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-18">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(12) H3.e. KIM.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-19">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(34) H3.e. KIM.jpg" alt="">
-                </a>
-              </div>
-              <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
-                <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#gambar3-20">
-                  <img class="img-fluid img-thumbnail" src="assets/gallery/fam-gath/(35) H3.e. KIM.jpg" alt="">
-                </a>
-              </div>
-
-
-            </div>
-            
-            <!-- Modal gambar 1 -->
-            <div class="modal fade" id="gambar1-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <img class="img-fluid" src="assets/gallery/som15th/" alt="">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Modal gambar 2 -->
-            <div class="modal fade" id="gambar1-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <img class="img-fluid" src="assets/gallery/som15th//gallery2.jpg" alt="">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Modal gambar 3 -->
-            <div class="modal fade" id="gambar1-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                  <div class="modal-content">
-                    <img class="img-fluid" src="assets/gallery/som15th//gallery3.jpg" alt="">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                </div>
-              </div>
-
-            <!-- Modal gambar 4 -->
-            <div class="modal fade" id="gambar1-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <img class="img-fluid" src="assets/gallery/som15th//gallery4.jpg" alt="">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                </div>
-            </div>
-
-            <!-- Modal gambar 1 -->
-            <div class="modal fade" id="gambar1-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <img class="img-fluid" src="assets/gallery/som15th/" alt="">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Modal gambar 1 -->
-            <div class="modal fade" id="gambar1-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <img class="img-fluid" src="assets/gallery/som15th/" alt="">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-              </div>
-            </div>
-
-            <!-- Modal gambar 1 -->
-            <div class="modal fade" id="gambar1-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <img class="img-fluid" src="assets/gallery/som15th/" alt="">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-              </div>
-            </div>
-
-            <!-- Modal gambar 1 -->
-            <div class="modal fade" id="gambar1-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <img class="img-fluid" src="assets/gallery/som15th/" alt="">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-              </div>
-            </div>
-
-            <!-- Modal gambar 1 -->
-            <div class="modal fade" id="gambar1-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <img class="img-fluid" src="assets/gallery/som15th/" alt="">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-              </div>
-            </div>
-
-            
+      <div class="container">
+        <h1 class="fw-light text-center text-lg-start mt-4 mb-0">
+          Thumbnail Gallery
+        </h1>
+        <hr class="mt-2 mb-5" />
+        <div class="items btns-group">
+          <button
+            type="button"
+            class="item buttons btn btn-outline-primary btn-lg active"
+            data-name="all">
+            All
+          </button>
+          <button
+            type="button"
+            class="item buttons btn btn-outline-primary btn-lg"
+            data-name="som15th">
+            SOM15th
+          </button>
+          <button
+            type="button"
+            class="item buttons btn btn-outline-primary btn-lg"
+            data-name="pelantikan">
+            Pelantikan
+          </button>
+          <button
+            type="button"
+            class="item buttons btn btn-outline-primary btn-lg"
+            data-name="fam-gath">
+            Family Gathering
+          </button>
         </div>
 
+        <div class="row text-center text-lg-start">
+          <!-- som15th -->
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-1">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/som15th/gallery1.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-2">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/som15th//gallery2.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-3">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/som15th//gallery3.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-4">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/som15th//gallery4.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-5">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/bussiness-meeting/(1).H1.b. Business Meeting.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-6">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/bussiness-meeting/(34).H1.b. Business Meeting.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-7">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/bussiness-meeting/(48).H1.b. Business Meeting.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-8">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/bussiness-meeting/(73).H1.b. Business Meeting.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-9">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/bussiness-meeting/(73).H1.b. Business Meeting.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="som15th">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar1-10">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/bussiness-meeting/(73).H1.b. Business Meeting.jpg"
+                alt="" />
+            </a>
+          </div>
+
+          <!-- pelantikan -->
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-1">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(129) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-2">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(21) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-3">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(6) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-4">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(71) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-5">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(80) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-6">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(108) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-7">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(24) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-8">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(28) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-9">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(37) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="pelantikan">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar2-10">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/pelantikan/(49) H1.e. Pelantikan Pengurus Perdami.jpg"
+                alt="" />
+            </a>
+          </div>
+
+          <!-- family-gathering -->
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-1">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(1) H3.b. Senam Pagi.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-2">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(21) H3.b. Senam Pagi.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-3">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(58) H3.b. Senam Pagi.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-4">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(6) H3.b. Senam Pagi.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-5">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(1) H3.a. Fun Bike.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-6">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(110) H3.a. Fun Bike.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-7">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(133) H3.a. Fun Bike.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-8">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(138) H3.a. Fun Bike.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-9">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(1) H3.c. Stand Kuliner.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-10">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(12) H3.c. Stand Kuliner.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-11">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(5) H3.c. Stand Kuliner.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-12">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(58) H3.c. Stand Kuliner.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-13">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(11) H3.d. SOM Idol.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-14">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(14) H3.d. SOM Idol.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-15">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(20) H3.d. SOM Idol.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-16">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(27) H3.d. SOM Idol.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-17">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(11) H3.e. KIM.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-18">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(12) H3.e. KIM.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-19">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(34) H3.e. KIM.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="image col-lg-3 col-md-4 col-6" data-name="fam-gath">
+            <a
+              href="#"
+              class="d-block mb-4 h-100"
+              data-bs-toggle="modal"
+              data-bs-target="#gambar3-20">
+              <img
+                class="img-fluid img-thumbnail"
+                src="assets/gallery/fam-gath/(35) H3.e. KIM.jpg"
+                alt="" />
+            </a>
+          </div>
+        </div>
+
+        <!-- Modal gambar 1 -->
+        <div
+          class="modal fade"
+          id="gambar1-1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img class="img-fluid" src="assets/gallery/som15th/" alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal gambar 2 -->
+        <div
+          class="modal fade"
+          id="gambar1-2"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img
+                class="img-fluid"
+                src="assets/gallery/som15th//gallery2.jpg"
+                alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal gambar 3 -->
+        <div
+          class="modal fade"
+          id="gambar1-3"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img
+                class="img-fluid"
+                src="assets/gallery/som15th//gallery3.jpg"
+                alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal gambar 4 -->
+        <div
+          class="modal fade"
+          id="gambar1-4"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img
+                class="img-fluid"
+                src="assets/gallery/som15th//gallery4.jpg"
+                alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal gambar 1 -->
+        <div
+          class="modal fade"
+          id="gambar1-1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img class="img-fluid" src="assets/gallery/som15th/" alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal gambar 1 -->
+        <div
+          class="modal fade"
+          id="gambar1-1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img class="img-fluid" src="assets/gallery/som15th/" alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal gambar 1 -->
+        <div
+          class="modal fade"
+          id="gambar1-1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img class="img-fluid" src="assets/gallery/som15th/" alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal gambar 1 -->
+        <div
+          class="modal fade"
+          id="gambar1-1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img class="img-fluid" src="assets/gallery/som15th/" alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal gambar 1 -->
+        <div
+          class="modal fade"
+          id="gambar1-1"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <img class="img-fluid" src="assets/gallery/som15th/" alt="" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-            
-          
-    
 
     <!-- gallery ends here -->
 
-      
-
-
-
-
-      <!-- cta start here -->
-      <section class="cta">  
-        <div class="row">                 
-              <div class="col-md-4">
-                <p><strong>Sekretariat PERDAMI Sumbar</strong></p>
-                <p>123 Anywhere St.
-                  Any City, ST 12345</p>
-              </div>
-              <div class="col-md-4">
-                <p>Tel. 123-456-7890<br>
-                Email: perdamisumbar2023@gmail.com<br>
-                Social: @reallygreatsite</p>                
-              </div>              
-          <div class="col-md-4">
-            <div class="icons">
-              <i class="fa-brands fa-instagram fa-lg"></i><a href="https://www.instagram.com/perdami.sumbar1/"> Perdami.sumbar1</a><br>
-              <i class="fa-brands fa-square-facebook fa-lg"></i><a href="https://www.facebook.com/perdamisumbar2020"> Perdami Sumbar </a><br>
-              <!-- <i class="fa-regular fa-envelope fa-lg"></i><a href="mailto:nama@example.com?subject=Pesan%20penting&body=Halo%20nama,%0D%0A%0D%0AIni%20adalah%20pesan%20penting%20yang%20saya%20ingin%20sampaikan.%0D%0A%0D%0ASalam%20hangat,%0D%0A%0D%0AJohn">perdamisumbar2023@gmail.com</a> -->            </div>
+    <!-- cta start here -->
+    <section class="cta">
+      <div class="row">
+        <div class="col-md-4">
+          <p><strong>Sekretariat PERDAMI Sumbar</strong></p>
+          <p>123 Anywhere St. Any City, ST 12345</p>
+        </div>
+        <div class="col-md-4">
+          <p>
+            Tel. 123-456-7890<br />
+            Email: perdamisumbar2023@gmail.com<br />
+            Social: @reallygreatsite
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="icons">
+            <i class="fa-brands fa-instagram fa-lg"></i
+            ><a href="https://www.instagram.com/perdami.sumbar1/">
+              Perdami.sumbar1</a
+            ><br />
+            <i class="fa-brands fa-square-facebook fa-lg"></i
+            ><a href="https://www.facebook.com/perdamisumbar2020">
+              Perdami Sumbar </a
+            ><br />
+            <!-- <i class="fa-regular fa-envelope fa-lg"></i><a href="mailto:nama@example.com?subject=Pesan%20penting&body=Halo%20nama,%0D%0A%0D%0AIni%20adalah%20pesan%20penting%20yang%20saya%20ingin%20sampaikan.%0D%0A%0D%0ASalam%20hangat,%0D%0A%0D%0AJohn">perdamisumbar2023@gmail.com</a> -->
           </div>
-      </div> 
+        </div>
+      </div>
     </section>
 
     <!-- cta end here -->
 
-
-
-
-
-
-
     <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    
-    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
 
     <!-- cdnjs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -462,8 +834,9 @@
           }
         })
       })
-    </script> -->    
+    </script> -->
 
     <script src="assets/js/main.js"></script>
-</body>
+    <script src="./components.js"></script>
+  </body>
 </html>

@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Trocchi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Trocchi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
-
-body{
+body {
   font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: "Playfair Display", serif;  
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Playfair Display", serif;
 }
 
 .starting-point {
   padding-top: 130px;
 }
-
 
 /* nvabar */
 
@@ -22,25 +24,26 @@ nav {
   background-color: #f5f5fa;
 }
 .navbar {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
-.navbar-brand img{
-    width: 6.5vw;
-    padding: 10px 10px;
+.navbar-brand img {
+  width: 6.5vw;
+  padding: 10px 10px;
 }
 
-.nav-link, .dropdown-menu li a {    
-  font-family: 'Merriweather', serif;
+.nav-link,
+.dropdown-menu li a {
+  font-family: "Merriweather", serif;
   color: #00345b;
 }
 
-.dropdown-menu a:hover{
+.dropdown-menu a:hover {
   background-color: #dbd3d8;
 }
 
 /* carousel head */
 .caro-heading {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 .caro-heading .carousel-control-prev-icon,
@@ -48,68 +51,98 @@ nav {
   display: none;
 }
 
-
 /* about */
 
 .about {
-    
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 .about-box {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 .about-box img {
-    width: 300px;
+  width: 300px;
 }
 
 .about-box h3 {
-    text-align: left;
-    padding: 3% 0 5%;
+  text-align: left;
+  padding: 3% 0 5%;
 }
 
 .about-box p {
   text-align: justify;
 }
 
+/* home-sections */
+/* 1 */
+.home-section1 {
+  padding: 30px 0;
+}
+.home-section1 img {
+  width: 75%;
+}
 
 /* events */
 
 .events {
-    text-align: center;
-    justify-content: center;
-    padding: 3% 7%;    
+  text-align: center;
+  justify-content: center;
+  padding: 3% 7%;
 }
 
-.events h2{
-    padding: 3% 0 2%;
-    font-size: 2rem;
+.events h2 {
+  padding: 3% 0 2%;
+  font-size: 2rem;
 }
 
 .events .card {
-    margin: 3% 0;
-    width: 25vw;
-    height: 30vw;
-  }
-  
+  margin: 3% 0;
+  width: 25vw;
+  height: 30vw;
+}
+
 .events .card-img-top {
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
-  }
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
 
 .d-md-none {
-  padding: 5% 8%;  
+  padding: 5% 8%;
 }
 
 .d-md-none img {
   height: 60vh;
 }
 
-  
+/* symposium */
+.head-symposium {
+  padding: 130px 0 10%;
+  text-align: center;
+}
 
+.head-symposium h3 {
+  padding-top: 80px;
+}
+.head-symposium h2 {
+  padding-bottom: 18px;
+  font-size: 3vw;
+}
+
+.head-symposium img {
+  width: 500px;
+}
+
+.symposium-part img {
+  width: 500px;
+  padding-top: 5%;
+}
+
+.symposium-part img:hover {
+  transform: scale(1.05);
+}
 
 /* awards-works */
 
@@ -118,16 +151,15 @@ nav {
   color: #f5f5fa;
   height: 500px;
   background-color: black;
-
 }
 
 .awards-works p.head-paragraf {
-  padding-top: 2%;  
+  padding-top: 2%;
 }
 
-.awards-works .awards-border {  
+.awards-works .awards-border {
   border-color: #f5f5fa;
-  border-bottom: 1px solid #dbd3d8;  
+  border-bottom: 1px solid #dbd3d8;
   right: 60%;
 }
 
@@ -135,25 +167,21 @@ nav {
   padding-top: 20px;
 }
 
-
-
-
 /* profile start */
 /* about */
 
 .about-profile {
-  padding-bottom:  10%;
-  text-align: center;   
+  padding-bottom: 10%;
+  text-align: center;
 }
 
 .about-profile h3 {
-  padding-top: 80px;    
+  padding-top: 80px;
 }
 
 .about-profile img {
-  width: 430px;    
+  width: 430px;
 }
-
 
 /* visi-misi */
 
@@ -161,14 +189,12 @@ nav {
   padding: 8% 7%;
   color: #f5f5fa;
   background-color: #001920;
-  text-align: center;  
+  text-align: center;
 }
 
 .visi-misi h3 {
   top: 100px;
 }
-
-
 
 /* struktur org */
 /* strc-org */
@@ -177,10 +203,15 @@ nav {
   text-align: center;
 }
 
-.strc-org h2{
+.strc-org img.logo-head {
+  width: 65%;
+  padding: 25px 0 75px;
+}
+
+.strc-org .caption-head {
   font-size: 2.8vw;
   text-align: center;
-  padding-bottom: 10%;
+  padding: 10% 0 15%;
 }
 
 .strc-org .row {
@@ -191,36 +222,33 @@ nav {
   padding: 5% 0;
 }
 
-.strc-org img {
-  width: 180px;
-  height: 215px;  
+.profil-img img {
+  width: 300px;
+  height: 320px;
   border-radius: 50%;
   filter: drop-shadow(5px 5px 5px gray);
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
-.strc-org img:hover{
+.profil-img img:hover {
   transform: scale(1.1);
 }
 
-.strc-org .profil-img h3, p {
-  padding-top: .8rem;
+.strc-org .profil-img h3,
+p {
+  padding-top: 0.8rem;
 }
-
-
-
-
 
 /* pelantikan */
 /* head pelantikan */
 
 .head-pelantikan {
   padding: 130px 0 10%;
-  text-align: center;   
+  text-align: center;
 }
 
 .head-pelantikan h3 {
-  padding-top: 80px;    
+  padding-top: 80px;
 }
 .head-pelantikan h2 {
   padding-bottom: 18px;
@@ -228,40 +256,31 @@ nav {
 }
 
 .head-pelantikan img {
-  width: 350px;    
+  width: 350px;
 }
-
-
 
 /* gallery */
 
-.gallery-som15 button{
-  font-size: 1.5vw;  
+.gallery-som15 button {
+  font-size: 1.5vw;
 }
 
 .gallery-som15 .btns-group {
   padding-bottom: 3%;
 }
 
-.gallery-som15 .container .image:hover img{
+.gallery-som15 .container .image:hover img {
   transform: scale(1.1);
 }
 
-
-
 /* contact us */
-
-
-
-
-
 
 /* cta */
 .cta {
-    background-color: #00345b;
-    text-align: center;    
-    padding: 5% 3%;
-    color: #f5f5fa;
+  background-color: #00345b;
+  text-align: center;
+  padding: 5% 3%;
+  color: #f5f5fa;
 }
 
 .cta .row {
@@ -269,12 +288,10 @@ nav {
   padding: 5vh 3vw;
 }
 
-
-
 .cta h3 {
-    text-align: left;
-    padding-bottom: 10%;
-    font-size: 3rem;
+  text-align: left;
+  padding-bottom: 10%;
+  font-size: 3rem;
 }
 
 .icons {
@@ -285,26 +302,15 @@ nav {
   color: #f5f5fa;
   text-decoration: none;
   line-height: 2.5;
-  padding-left: 5px;  
+  padding-left: 5px;
 }
 
 .icons a:hover {
-  color: aqua;  
+  color: aqua;
   border-radius: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
-
   body p {
     font-size: 3vw;
   }
@@ -316,9 +322,10 @@ nav {
   .about-box img {
     width: 160px;
   }
-  .about-box h3, p {
-    text-align: center;        
-  }  
+  .about-box h3,
+  p {
+    text-align: center;
+  }
 
   .awards-works {
     text-align: left;
@@ -332,25 +339,22 @@ nav {
   }
 
   .about-profile p {
-      text-indent: 10px;
-      text-align: justify;
+    text-indent: 10px;
+    text-align: justify;
   }
 
   .about-profile img {
-      width: 75%;        
+    width: 75%;
   }
 
-  p.paragraf{
-      text-align: justify;
+  p.paragraf {
+    text-align: justify;
   }
-
 
   /* struktur org */
   .strc-org img {
     width: 130px;
   }
-
-
 
   /* pelantikan */
 
@@ -359,26 +363,22 @@ nav {
     text-align: center;
   }
   .head-pelantikan p {
-      text-indent: 10px;
-      text-align: justify;
+    text-indent: 10px;
+    text-align: justify;
   }
 
   .head-pelantikan img {
-      width: 75%;        
+    width: 75%;
   }
 
-  p.paragraf{
-      text-align: justify;
+  p.paragraf {
+    text-align: justify;
   }
 
   /* gallery */
   /* .gallery-som15 button {
     font-size: 2vw;
   } */
-
-
-  
-
 
   /* cta */
 
@@ -389,19 +389,14 @@ nav {
   }
 
   .cta p {
-      font-size: 4vw;
-      text-align: left;
+    font-size: 4vw;
+    text-align: left;
   }
 
   .icons a {
     font-size: 13px;
   }
-    
-  }
+}
 
-  @media (min-width: 768px) {
-
-    
-
-
-  }
+@media (min-width: 768px) {
+}
