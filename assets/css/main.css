@@ -375,6 +375,11 @@ p {
     text-align: justify;
   }
 
+  /* ftco */
+  /* .ftco-section .informasi p {
+    justify-content: left;
+  } */
+
   /* gallery */
   /* .gallery-som15 button {
     font-size: 2vw;
@@ -385,11 +390,11 @@ p {
   .cta h3 {
     text-align: left;
     padding-bottom: 8px;
-    font-size: 6vw;
+    font-size: 4vw;
   }
 
   .cta p {
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: left;
   }
 

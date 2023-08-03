@@ -8,6 +8,8 @@ class Head extends HTMLElement {
     
         <!-- fontawesomw -->
         <script src="https://kit.fontawesome.com/fa749c5de2.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     
         `;
@@ -131,10 +133,10 @@ class Footer extends HTMLElement {
         ><a href="https://www.instagram.com/perdami.sumbar1/">
           Perdami.sumbar1</a
         ><br />
-        <i class="fa-brands fa-square-facebook fa-lg"></i
+        
+        <i class="fa-brands fa-facebook-f fa-lg" style="color:#ffffff"></i
         ><a href="https://www.facebook.com/perdamisumbar2020">
-          Perdami Sumbar </a
-        ><br />
+          Perdami Sumbar </a><br/>
       </div>
     </div>
   </div>
