@@ -22,7 +22,7 @@ class Navbar extends HTMLElement {
           <nav id="navbar" class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <div class="d-flex justify-content-center">
-        <a class="navbar-brand" href="home.html">
+        <a class="navbar-brand" href="index.html">
           <img src="assets/img/logo.jpg" alt="" />
         </a>
       </div>
@@ -38,7 +38,7 @@ class Navbar extends HTMLElement {
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav mx-auto">
-          <a class="nav-link active me-5" aria-current="page" href="home.html"
+          <a class="nav-link active me-5" aria-current="page" href="index.html"
             >Home</a
           >
           <li class="nav-item dropdown">
