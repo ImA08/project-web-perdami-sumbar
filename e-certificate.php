@@ -1,3 +1,32 @@
+<?php
+//periksa apakah tombol cari telah diklik
+
+if (isset($_POST['cari'])) {
+    // Koneksi ke database
+    $conn = mysqli_connect("localhost", "u1573766_admin", "perdamisumbar", "u1573766_db_certificates");
+
+    // Menerima inputan dari user
+    $search = $_POST['search'];
+
+    $sql = "SELECT * FROM certificates WHERE name LIKE '%$search%' OR nra LIKE '%$search%' OR certificate_type LIKE '%$search%' OR role LIKE '%$search%'";
+    $result = mysqli_query($conn, $sql);
+
+    if (mysqli_num_rows($result) > 0) {
+        // tampilkan data yang ditemukan
+    } else {
+        // tampilkan notifikasi jika data tidak ditemukan
+        echo "<script>alert('Data tidak ditemukan, Periksa kembali inputan!!');</script>";
+    }
+}
+
+
+// $sql = "SELECT * FROM certificates WHERE name LIKE '%$search%' OR nra LIKE '%$search%' OR email LIKE '%$search%' OR institusi LIKE '%$search%'";
+// $result = mysqli_query($conn, $sql);
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -38,7 +67,7 @@
 
       <!-- Search Form -->
       <div style="text-align: center; margin-top: 2%; margin-bottom: 2%">
-      
+      <form action="" method="post">
         <input
           type="text"
           placeholder="Search name"
@@ -59,13 +88,48 @@
           onclick="handleSearch()">
           Search
         </button>
-        
+        </form>
       </div>
 
       <!-- ... (rest of the HTML code) -->
 
 
-      
+      <?php if (isset($result) && mysqli_num_rows($result) > 0) : ?>
+        <table class="centered responsive-table">
+
+            <thead>
+                <tr>
+                    <th>NRA</th>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Certificate Type</th>
+                    <th>Download</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <?php while ($row = mysqli_fetch_assoc($result)) : ?>
+                    <tr>
+                        <td><?= $row["nra"]; ?></td>
+                        <td><?= $row["name"]; ?></td>
+                        <td><?= $row["role"]; ?></td>
+                        <td><?= $row["certificate_type"]; ?></td>
+
+                        <td>
+                            <?php
+                            $pdf_url = 'data:application/pdf;base64,' . base64_encode($row['certificate']);
+                            ?>
+                            <a href="<?php echo $pdf_url; ?>" download="<?php echo $row['name']; ?>.pdf">Download</a>
+                        </td>
+
+                    </tr>
+
+                <?php endwhile; ?>
+            </tbody>
+        </table>
+    <?php endif; ?>
 
       <!-- Error Message -->
       <div style="text-align: center; color: red"></div>
@@ -99,6 +163,8 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
       crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="./components.js"></script>
     <script src="./e-certificate-download.js"></script>
