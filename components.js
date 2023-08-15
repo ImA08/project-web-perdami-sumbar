@@ -122,9 +122,9 @@ class Footer extends HTMLElement {
     </div>
     <div class="col-md-4">
       <p>
-        Tel. 123-456-7890<br />
+        Tel. +62 813-7431-4229<br />
         Email: perdamisumbar2023@gmail.com<br />
-        Social: @reallygreatsite
+        
       </p>
     </div>
     <div class="col-md-4">
